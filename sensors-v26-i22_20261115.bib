@@ -1,0 +1,17 @@
+
+@Article{s26227168,
+AUTHOR = {Kim, Dong Yeop and Kim, Keunhwan and Hwang, Jung-Hoon and Kim, Euntai},
+TITLE = {Revisiting Scene Change Detection with Pixel-Wise Temporal Fusion},
+JOURNAL = {Sensors},
+VOLUME = {26},
+YEAR = {2026},
+NUMBER = {22},
+ARTICLE-NUMBER = {7168},
+URL = {https://www.mdpi.com/1424-8220/26/22/7168},
+ISSN = {1424-8220},
+ABSTRACT = {Change detection aims to identify pixel-wise scene changes between observations acquired at different times by leveraging the strong visual representation capabilities of deep neural networks on RGB images. In robotics scenarios such as the ChangeSim dataset, visual observations are naturally collected as temporally sequential image streams rather than isolated image pairs. Our key insight is that these temporal cues can be exploited as a temporal prior for scene change detection, inspired by Bayesian fusion and the Markov assumption in probabilistic robotics. Based on this insight, we propose a pixel-wise temporal fusion framework that integrates information from a reference visual memory and temporally preceding observations. A frozen optical-flow model is employed to align the current-frame change prediction with a temporally accumulated fusion tensor, enabling consistent pixel-wise correspondence across time. This design yields two complementary information pathways: one capturing instantaneous semantic differences from the current image and another progressively integrating historical evidence through temporal fusion. Experiments on the ChangeSim dataset demonstrate that the proposed framework achieves a five-class mean Intersection-over-Union (mIoU) of 29.6%, compared with 26.8% for a recipe-matched model without temporal fusion. The proposed framework also achieves a change-only mIoU of 14.2%, compared with 10.7% for the no-fusion counterpart, indicating improved semantic change recognition under the evaluated conditions.},
+DOI = {10.3390/s26227168}
+}
+
+
+
